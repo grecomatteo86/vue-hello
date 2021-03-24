@@ -13,9 +13,11 @@
 
   <div id="root">
 
-    <input v-model='message' type="text" name="" value="">
+    <input v-model='message.nome' type="text" name="" value="" placeholder="inserisci nome">
 
-    <h1> {{message}} </h1>
+    <input v-model='message.cognome' type="text" name="" value="" placeholder="inserisci cognome">
+
+    <h1> Ciao {{message.nome}} {{message.cognome}} </h1>
 
   </div>
 
