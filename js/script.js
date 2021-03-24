@@ -5,7 +5,8 @@ var app = new Vue (
       message: {
         nome:'',
         cognome:''
-      }
+      },
+      img:'img/boolean.png'
     }
   }
 );
