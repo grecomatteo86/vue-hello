@@ -12,6 +12,7 @@ var app = new Vue (
     methods:{
       miaFunzione:function(){
         this.classe='blu';
+        this.img='https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/164265556_3797577096988480_4056534505529749606_o.png?_nc_cat=107&ccb=1-3&_nc_sid=730e14&_nc_ohc=jTbbjEN0jMkAX-alzWQ&_nc_ht=scontent-mxp1-1.xx&oh=f54bd4fe18f1e9565a781289a6fd8518&oe=60807824';
       }
     }
   }
