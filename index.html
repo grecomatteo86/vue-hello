@@ -4,30 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  <!-- /stylesheet -->
-  <!-- vue_cdn_development_version -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-  <!-- /vue_cdn_development_version -->
   <title>Vue Hello</title>
 </head>
 <body>
-
   <div id="root">
-
-    <input v-model='message.nome' type="text" name="" value="" placeholder="inserisci nome">
-
-    <input v-model='message.cognome' type="text" name="" value="" placeholder="inserisci cognome">
-
-    <h1 v-bind:class='classe'> Ciao {{message.nome}} {{message.cognome}} </h1>
-
+    <input v-model='input.name' type="text" name="" value="" placeholder="insert your name">
+    <input v-model='input.lastname' type="text" name="" value="" placeholder="insert your lastname">
+    <h1 v-bind:class='colour'> Hello {{input.name}} {{input.lastname}} </h1>
     <img v-bind:src='img' alt="">
-
-    <button @click="miaFunzione">Click Me!</button>
-
+    <button @click="myFunction">Click Me!</button>
   </div>
-
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
